@@ -1,0 +1,27 @@
+git add .
+git status
+git commit -m "Creación de archivos html y js"
+git push origin main
+git branch feature
+git checkout feature
+mkdir Hardware
+mkdir Software
+mkdir SeguridadInformatica
+cd Hardware
+touch resumen.txt
+cd ..
+cd Software
+touch resumen.txt
+cd ..
+cd SeguridadInformatica
+touch resumen.txt
+cd ..
+git add .
+git status
+git commit -m "Creación de carpetas y archivos txt"
+git push origin feature
+git checkout main
+mv main.js resumenHardware.txt
+mv index.html resumenSoftware.txt
+touch comandos.txt
+history
